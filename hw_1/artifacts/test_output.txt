@@ -1,0 +1,83 @@
+$ python3 nl.py test.txt
+     1	line1
+     2	line2
+     3	line3
+     4	line4
+     5	line5
+     6	line6
+     7	line7
+     8	line8
+     9	line9
+    10	line10
+    11	line11
+    12	line12
+
+$ echo -e "hello\nworld" | python3 nl.py
+     1	hello
+     2	world
+
+$ python3 tail.py test.txt
+line3
+line4
+line5
+line6
+line7
+line8
+line9
+line10
+line11
+line12
+
+$ python3 tail.py test.txt test.txt
+==> test.txt <==
+line3
+line4
+line5
+line6
+line7
+line8
+line9
+line10
+line11
+line12
+==> test.txt <==
+line3
+line4
+line5
+line6
+line7
+line8
+line9
+line10
+line11
+line12
+
+$ echo -e "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18" | python3 tail.py
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+
+$ python3 wc.py test.txt
+      12      12      85 test.txt
+
+$ python3 wc.py test.txt test.txt
+      12      12      85 test.txt
+      12      12      85 test.txt
+      24      24     170 total
+
+$ echo -e "hello world\ngoodbye" | python3 wc.py
+       2       3      20
