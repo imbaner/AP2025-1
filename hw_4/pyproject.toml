@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hw04-parallel-slavikbendik"
+version = "0.1.0"
+requires-python = ">=3.10"
+authors = [{ name = "Viacheslav Bendik" }]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hw04"]

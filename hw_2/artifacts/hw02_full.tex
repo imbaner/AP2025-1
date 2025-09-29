@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\title{HW02 — Table + Image}
+\author{Your Name}
+\begin{document}
+\maketitle
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lcr}
+Item & Qty & Price \\ \hline
+Apples & 3 & \$2.50 \\
+Bananas & 5 & \$1.70 \\
+Kiwi\_\# & 2 & \$4.20 \\
+\end{tabular}
+\caption{Groceries}
+\label{tab:grocery}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.6\linewidth]{/app/assets/sample.png}
+\caption{Sample PNG inserted via \textbackslash{}includegraphics}
+\label{fig:sample}
+\end{figure}
+\end{document}
