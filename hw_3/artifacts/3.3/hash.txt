@@ -1,0 +1,2 @@
+hash(AB)=22
+hash(CD)=22

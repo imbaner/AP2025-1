@@ -1,0 +1,54 @@
+$ /Library/Developer/CommandLineTools/usr/bin/python3 /Users/slavik/Documents/AP2025-1-main/hw_1/tail.py /Users/slavik/Documents/AP2025-1-main/hw_1/test.txt
+line3
+line4
+line5
+line6
+line7
+line8
+line9
+line10
+line11
+line12
+
+$ /Library/Developer/CommandLineTools/usr/bin/python3 /Users/slavik/Documents/AP2025-1-main/hw_1/tail.py /Users/slavik/Documents/AP2025-1-main/hw_1/test.txt /Users/slavik/Documents/AP2025-1-main/hw_1/test.txt
+==> /Users/slavik/Documents/AP2025-1-main/hw_1/test.txt <==
+line3
+line4
+line5
+line6
+line7
+line8
+line9
+line10
+line11
+line12
+==> /Users/slavik/Documents/AP2025-1-main/hw_1/test.txt <==
+line3
+line4
+line5
+line6
+line7
+line8
+line9
+line10
+line11
+line12
+
+$ /Library/Developer/CommandLineTools/usr/bin/python3 /Users/slavik/Documents/AP2025-1-main/hw_1/tail.py  # via stdin
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18

@@ -1,50 +1,44 @@
-
+# ----- Python bytecode / caches -----
 __pycache__/
 *.py[cod]
 *$py.class
-*.pyo
-*.pyd
 
-build/
-dist/
-.eggs/
-*.egg-info/
-pip-wheel-metadata/
-
+# ----- Virtual environments -----
 .venv/
 venv/
 env/
 ENV/
 .pyenv/
 
-.mypy_cache/
-.ruff_cache/
-.pytype/
+# ----- Packaging / build -----
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
 
+# ----- Testing / coverage -----
 .pytest_cache/
 .coverage
 .coverage.*
-.cache
-coverage.xml
 htmlcov/
+.cache
 
+# ----- Jupyter -----
 .ipynb_checkpoints/
 
-.idea/
+# ----- Editors / IDE -----
 .vscode/
-*.code-workspace
+.idea/
 *.swp
 *.swo
 *.orig
 
+# ----- OS files -----
 .DS_Store
 Thumbs.db
 
-# Keep only final .tex and .pdf under any homework's artifacts/
-**/artifacts/**
-!**/artifacts/*.tex
-!**/artifacts/*.pdf
-# Common LaTeX aux files (ignored everywhere)
+# ----- LaTeX aux (keep .tex/.pdf/.txt/.csv) -----
 *.aux
 *.bbl
 *.bcf
@@ -56,9 +50,3 @@ Thumbs.db
 *.run.xml
 *.synctex.gz
 *.toc
-
-**/.docker/
-*.tar
-
-*.tmp
-*.bak

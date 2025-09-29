@@ -1,0 +1,4 @@
+Fibonacci benchmark (n=36, reps=10)
+sync:        8.670 s
+threading:   8.855 s
+processing:  1.732 s
